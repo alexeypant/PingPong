@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Group?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+
+<Group fx:id="theGroup" fx:controller="pong.PingPongController" focusTraversable="true" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle fx:id="table" fill="#31b287" height="250.0" stroke="BLACK" strokeType="INSIDE" width="400.0" />
+      <Rectangle fx:id="compPaddle" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="50.0" layoutX="25.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Rectangle fx:id="kidPaddle" arcHeight="5.0" arcWidth="5.0" fill="YELLOW" height="50.0" layoutX="365.0" layoutY="100.0" stroke="BLACK" strokeType="INSIDE" width="10.0" />
+      <Circle fx:id="ball" fill="RED" layoutX="200.0" layoutY="125.0" radius="9.0" stroke="BLACK" strokeType="INSIDE" />
+   </children>
+</Group>
